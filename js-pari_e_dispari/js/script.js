@@ -5,11 +5,19 @@
 
 // usiamo un prompt per far scegliere all'utente pari o dispari e poi sceglie un numero
 const odd_or_even = prompt('Choose odd or even');
-const numb = prompt('Type a numb from 1 to 5');
+const numb = Number(prompt('Type a numb from 1 to 5'));
 
 // uso function per generare un numero random
-function numb_pc(numero) {
+function numb_pc() {
     let num = Math.floor(Math.random() * 5) + 1;
+    
     console.log(num);
+
+    sum = num + numb;
+    console.log(sum);
 }
+
 numb_pc();
+
+
+
