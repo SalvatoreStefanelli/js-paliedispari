@@ -3,3 +3,7 @@
 
 //Uso prompt per chiedere all'utente di inserire una parola
 const word = prompt('Type a word');
+
+function palindrome() {
+    
+}
