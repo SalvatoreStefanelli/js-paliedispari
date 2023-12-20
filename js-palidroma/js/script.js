@@ -6,4 +6,5 @@ const word = prompt('Type a word');
 
 function palindrome() {
     
+    
 }
