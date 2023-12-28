@@ -27,6 +27,7 @@ console.log(is_even(sum));
 // uso function per generare un numero random
 function numb_pc() {
     let num = Math.floor(Math.random() * 5) + 1;
+    console.log(num);
     
     return num + numb;    
 }
